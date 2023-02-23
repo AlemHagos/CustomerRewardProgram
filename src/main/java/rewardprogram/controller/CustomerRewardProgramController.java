@@ -16,9 +16,6 @@ public class CustomerRewardProgramController {
 @Autowired
 private CustomerRewardProgramService programService;
 
-    //public CustomerRewardProgramController(CustomerRewardProgramService programService) {
-     //   this.programService = programService;
-   // }
 
         @GetMapping("/")
         public ResponseEntity<List<CustomerRewardProgram>> getAllCustomerRewardsProgram() {
